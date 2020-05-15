@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jetbrains.teamcity</groupId>
-  <artifactId>teamcity-kubernetes-plugin</artifactId>
+  <artifactId>teamcity-helm-plugin</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-      <teamcity-version>2018.1</teamcity-version>
+      <teamcity-version>2020.1</teamcity-version>
       <kotlin.version>1.3.0</kotlin.version>
   </properties>
   <repositories>
@@ -45,9 +45,9 @@
       </pluginManagement>
   </build>
   <modules>
-    <module>teamcity-kubernetes-plugin-server</module>
-    <module>teamcity-kubernetes-plugin-agent</module>
-    <module>teamcity-kubernetes-plugin-common</module>
+    <module>teamcity-helm-plugin-server</module>
+    <module>teamcity-helm-plugin-agent</module>
+    <module>teamcity-helm-plugin-common</module>
     <module>build</module>
   </modules>
 </project>

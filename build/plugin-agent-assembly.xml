@@ -7,7 +7,7 @@
     </formats>
     <files>
         <file>
-            <source>../teamcity-kubernetes-plugin-agent/teamcity-plugin.xml</source>
+            <source>../teamcity-helm-plugin-agent/teamcity-plugin.xml</source>
             <outputDirectory>/</outputDirectory>
         </file>
     </files>
@@ -15,8 +15,8 @@
         <moduleSet>
             <useAllReactorProjects>true</useAllReactorProjects>
             <includes>
-                <include>org.jetbrains.teamcity:teamcity-kubernetes-plugin-agent</include>
-                <include>org.jetbrains.teamcity:teamcity-kubernetes-plugin-common</include>
+                <include>org.jetbrains.teamcity:teamcity-helm-plugin-agent</include>
+                <include>org.jetbrains.teamcity:teamcity-helm-plugin-common</include>
             </includes>
             <binaries>
                 <outputDirectory>lib</outputDirectory>

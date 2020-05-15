@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>teamcity-kubernetes-plugin</artifactId>
+    <artifactId>teamcity-helm-plugin</artifactId>
     <groupId>org.jetbrains.teamcity</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -10,24 +10,24 @@
   <packaging>pom</packaging>
   <properties>
       <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
-      <teamcity.teamcity-kubernetes-plugin.plugin.version>snapshot-${maven.build.timestamp}</teamcity.teamcity-kubernetes-plugin.plugin.version>
-      <teamcity.teamcity-kubernetes-plugin.plugin.vendorName>Plugin vendor name</teamcity.teamcity-kubernetes-plugin.plugin.vendorName>
-      <teamcity.teamcity-kubernetes-plugin.plugin.vendorUrl>Plugin vendor URL</teamcity.teamcity-kubernetes-plugin.plugin.vendorUrl>
+      <teamcity.teamcity-helm-plugin.plugin.version>snapshot-${maven.build.timestamp}</teamcity.teamcity-helm-plugin.plugin.version>
+      <teamcity.teamcity-helm-plugin.plugin.vendorName>Plugin vendor name</teamcity.teamcity-helm-plugin.plugin.vendorName>
+      <teamcity.teamcity-helm-plugin.plugin.vendorUrl>Plugin vendor URL</teamcity.teamcity-helm-plugin.plugin.vendorUrl>
   </properties>
   <dependencies>
       <dependency>
            <groupId>org.jetbrains.teamcity</groupId>
-           <artifactId>teamcity-kubernetes-plugin-agent</artifactId>
+           <artifactId>teamcity-helm-plugin-agent</artifactId>
            <version>1.0-SNAPSHOT</version>
       </dependency>
       <dependency>
            <groupId>org.jetbrains.teamcity</groupId>
-           <artifactId>teamcity-kubernetes-plugin-common</artifactId>
+           <artifactId>teamcity-helm-plugin-common</artifactId>
            <version>1.0-SNAPSHOT</version>
       </dependency>
       <dependency>
            <groupId>org.jetbrains.teamcity</groupId>
-           <artifactId>teamcity-kubernetes-plugin-server</artifactId>
+           <artifactId>teamcity-helm-plugin-server</artifactId>
            <version>1.0-SNAPSHOT</version>
       </dependency>
   </dependencies>
@@ -51,15 +51,15 @@
                 <replacements>
                     <replacement>
                         <token>@Version@</token>
-                        <value>${teamcity.teamcity-kubernetes-plugin.plugin.version}</value>
+                        <value>${teamcity.teamcity-helm-plugin.plugin.version}</value>
                     </replacement>
                     <replacement>
                         <token>@VendorName@</token>
-                        <value>${teamcity.teamcity-kubernetes-plugin.plugin.vendorName}</value>
+                        <value>${teamcity.teamcity-helm-plugin.plugin.vendorName}</value>
                     </replacement>
                     <replacement>
                         <token>@VendorURL@</token>
-                        <value>${teamcity.teamcity-kubernetes-plugin.plugin.vendorUrl}</value>
+                        <value>${teamcity.teamcity-helm-plugin.plugin.vendorUrl}</value>
                     </replacement>
                 </replacements>                        
             </configuration>
@@ -75,7 +75,7 @@
                   <goal>single</goal>
                 </goals>
                 <configuration>
-                  <finalName>teamcity-kubernetes-plugin-agent</finalName>
+                  <finalName>teamcity-helm-plugin-agent</finalName>
                   <appendAssemblyId>false</appendAssemblyId>
                   <descriptors>
                     <descriptor>plugin-agent-assembly.xml</descriptor>
@@ -89,7 +89,7 @@
                   <goal>single</goal>
                 </goals>
                 <configuration>
-                  <finalName>teamcity-kubernetes-plugin</finalName>
+                  <finalName>teamcity-helm-plugin</finalName>
                   <outputDirectory>${project.parent.build.directory}</outputDirectory>
                   <appendAssemblyId>false</appendAssemblyId>
                   <descriptors>

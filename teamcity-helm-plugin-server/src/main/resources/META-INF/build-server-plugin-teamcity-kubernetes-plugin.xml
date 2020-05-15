@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+       default-autowire="constructor">
+    <!--helm support-->
+    <bean id="helmRunType" class="jetbrains.buildServer.helm.HelmRunType" />
+    <bean id="installCommand" class="jetbrains.buildServer.helm.InstallCommand" />
+    <bean id="deleteCommand" class="jetbrains.buildServer.helm.DeleteCommand" />
+    <bean id="testCommand" class="jetbrains.buildServer.helm.TestCommand" />
+    <bean id="upgradeCommand" class="jetbrains.buildServer.helm.UpgradeCommand" />
+    <bean id="rollbackCommand" class="jetbrains.buildServer.helm.RollbackCommand" />
+</beans>

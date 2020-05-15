@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/build/build.iml" filepath="$PROJECT_DIR$/build/build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teamcity-kubernetes-plugin.iml" filepath="$PROJECT_DIR$/teamcity-kubernetes-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teamcity-kubernetes-plugin-agent/teamcity-kubernetes-plugin-agent.iml" filepath="$PROJECT_DIR$/teamcity-kubernetes-plugin-agent/teamcity-kubernetes-plugin-agent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teamcity-kubernetes-plugin-common/teamcity-kubernetes-plugin-common.iml" filepath="$PROJECT_DIR$/teamcity-kubernetes-plugin-common/teamcity-kubernetes-plugin-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teamcity-kubernetes-plugin-server/teamcity-kubernetes-plugin-server.iml" filepath="$PROJECT_DIR$/teamcity-kubernetes-plugin-server/teamcity-kubernetes-plugin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity-helm-plugin.iml" filepath="$PROJECT_DIR$/teamcity-helm-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity-helm-plugin-agent/teamcity-helm-plugin-agent.iml" filepath="$PROJECT_DIR$/teamcity-helm-plugin-agent/teamcity-helm-plugin-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity-helm-plugin-common/teamcity-helm-plugin-common.iml" filepath="$PROJECT_DIR$/teamcity-helm-plugin-common/teamcity-helm-plugin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamcity-helm-plugin-server/teamcity-helm-plugin-server.iml" filepath="$PROJECT_DIR$/teamcity-helm-plugin-server/teamcity-helm-plugin-server.iml" />
     </modules>
   </component>
 </project>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
   <info>
-    <name>teamcity-kubernetes-plugin</name>
-    <display-name>Kubernetes support</display-name>
+    <name>teamcity-helm-plugin</name>
+    <display-name>Helm support</display-name>
     <version>@Version@</version>
-    <description>Allows running TeamCity agents in a Kubernetes cluster</description>
+    <description>Adds Helm commands runner to TeamCity</description>
     <vendor>
       <name>JetBrains, s.r.o.</name>
       <url>http://www.jetbrains.com</url>
