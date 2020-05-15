@@ -8,23 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="teamcity-kubernetes-plugin-agent" />
-    <orderEntry type="module" module-name="teamcity-kubernetes-plugin-common" />
-    <orderEntry type="module" module-name="teamcity-kubernetes-plugin-server" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-client:3.1.10" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model:2.0.8" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.7.5" level="project" />
-    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.9.1" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:3.9.1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.7.7" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.7" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:zjsonpatch:0.3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.mifmif:generex:1.0.1" level="project" />
-    <orderEntry type="library" name="Maven: dk.brics.automaton:automaton:1.11-8" level="project" />
+    <orderEntry type="module" module-name="teamcity-helm-plugin-agent" />
+    <orderEntry type="module" module-name="teamcity-helm-plugin-common" />
+    <orderEntry type="module" module-name="teamcity-helm-plugin-server" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.3.0" level="project" />
   </component>
 </module>
