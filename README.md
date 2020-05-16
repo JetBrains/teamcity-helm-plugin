@@ -1,6 +1,6 @@
 # TeamCity Kubernetes Support Plugin
-[![official JetBrains project](http://jb.gg/badges/official.svg)](https://plugins.jetbrains.com/plugin/9818-kubernetes-cloud-support)
-[![plugin status](https://teamcity.jetbrains.com/app/rest/builds/buildType:(id:TeamCityPluginsByJetBrains_TeamCityKubernetesPlugin_Build)/statusIcon.svg)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=TeamCityPluginsByJetBrains_TeamCityKubernetesPlugin_Build20181x&guest=1)
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://plugins.jetbrains.com/plugin/14315-helm-support)
+[![plugin status](https://teamcity.jetbrains.com/app/rest/builds/buildType:(id:TeamCityPluginsByJetBrains_TeamCityHelmPlugin_BuildMaster)/statusIcon.svg)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=TeamCityPluginsByJetBrains_TeamCityHelmPlugin_BuildMaster&guest=1)
 
 Support [Helm](https://docs.helm.sh/) build steps.
 
@@ -10,7 +10,7 @@ The plugin is compatible with TeamCity 2017.1.x and later.
 
 ## Installation
 
-You can [download the plugin](https://teamcity.jetbrains.com/guestAuth/app/rest/builds/buildType:TeamCityPluginsByJetBrains_TeamCityKubernetesPlugin_Build20172x,tags:release/artifacts/content/teamcity-kubernetes-plugin.zip) and install it as an [additional TeamCity plugin](https://www.jetbrains.com/help/teamcity/?Installing+Additional+Plugins).
+You can [download the plugin](https://teamcity.jetbrains.com/guestAuth/app/rest/builds/buildType:TeamCityPluginsByJetBrains_TeamCityHelmPlugin_BuildMaster,pinned:true/artifacts/content/teamcity-helm-plugin.zip) and install it as an [additional TeamCity plugin](https://www.jetbrains.com/help/teamcity/?Installing+Additional+Plugins).
 
 ## Configuration
 
