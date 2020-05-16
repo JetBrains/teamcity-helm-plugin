@@ -2,11 +2,12 @@
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://plugins.jetbrains.com/plugin/14315-helm-support)
 [![plugin status](https://teamcity.jetbrains.com/app/rest/builds/buildType:(id:TeamCityPluginsByJetBrains_TeamCityHelmPlugin_BuildMaster)/statusIcon.svg)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=TeamCityPluginsByJetBrains_TeamCityHelmPlugin_BuildMaster&guest=1)
 
-Support [Helm](https://docs.helm.sh/) build steps.
+Support [Helm 2](https://docs.helm.sh/) build steps.
 
 ## Compatibility
 
 The plugin is compatible with TeamCity 2017.1.x and later.
+The plugin is compatible with Helm 2.0
 
 ## Installation
 
